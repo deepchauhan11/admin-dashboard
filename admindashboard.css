@@ -1,0 +1,43 @@
+:root{
+    --offcanvas-width: 250px;
+    --topNavbarHeight: 56px
+}
+
+.form-control{
+    margin-left: 800px;
+}
+.sidebar-offcanvas{
+    width: var(--offcanvas-width) !important;
+    display: flex !important;
+}
+
+.sidebar-offcanvas .right-icon{
+    display: inline-flex !important;
+}
+
+@media (min-width:750px){
+    .sidebar-offcanvas{
+        transform: none !important;
+        visibility: visible !important;
+        top: var(--topNavbarHeight) !important;
+        height: calc(100% - var(--topNavbarHeight));
+    }
+}
+
+.services-container{
+    margin-left: 255px;
+}
+#services{
+    height: 300px;
+    text-align: center;
+
+}
+.h-primary{
+    margin-left: 8px;
+}
+.h-secondary{
+    margin-top: 5px;
+}
+.box{
+    border-radius: 10px;
+}
